@@ -9,8 +9,8 @@ body {
 
 input[type="button"] 
 { 
-    background-color:#03fcc2; 
-    color: black; 
+    background-color:#0c2835; 
+    color: #fff; 
     border: solid black 2px; 
     width:100%;
     font-size:30px;
@@ -22,4 +22,9 @@ input[type="text"]
     border: solid black 2px; 
     width:98%;  
     font-size:30px;
-}         
+}  
+
+input[type="button"]:hover {
+    background-color: #74ff3b;
+    color: #111;
+}
